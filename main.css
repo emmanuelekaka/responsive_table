@@ -41,6 +41,7 @@ th{
     background:red;
     padding:10px;
 }
+/* Styling buttons */
 .btn{
     border:none;
     border-radius:5px;
@@ -58,9 +59,11 @@ td{
 /* Media query for adaptability for small screens */
 /* main thing is making cellsblock */
 @media screen and (max-width:600px){
+    /* Table head disappears on small screens */
     thead{
         display:none;
     }
+    /* making elements block */
     table, table tbody, table tr, table td{
         display:block;
         width:100%;
@@ -69,6 +72,7 @@ td{
         text-align:right;
         padding-right:5px;
     }
+    /* data  labels appear at the before content */
     table td:before{
         content:attr(data-label);
         position:absolute;
