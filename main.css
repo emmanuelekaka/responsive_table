@@ -58,7 +58,13 @@ td{
 }
 /* Media query for adaptability for small screens */
 /* main thing is making cellsblock */
-@media screen and (max-width:600px){
+@media screen and (max-width:800px){
+    table{
+        width:90vw;
+    }
+
+}
+@media screen and (max-width:500px){
     /* Table head disappears on small screens */
     thead{
         display:none;
