@@ -64,7 +64,7 @@ td{
     }
 
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:350px){
     /* Table head disappears on small screens */
     thead{
         display:none;
